@@ -1,4 +1,3 @@
-
 create database test;
 
 CREATE TABLE `student` (
@@ -9,4 +8,4 @@ CREATE TABLE `student` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
-mysql> insert into student set name = '大毛',age = 28, create_time = now();
+insert into student set name = '大毛',age = 28, create_time = now();

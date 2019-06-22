@@ -38,15 +38,15 @@ public class JsonResponse {
         if(null == data){
 
         }
-        return Contants.gson.toJson(new JsonResponse(JsonResponse.CODE_SUCCESS, JsonResponse.MSG_SUCCESS, data));
+        return Constant.gson.toJson(new JsonResponse(JsonResponse.CODE_SUCCESS, JsonResponse.MSG_SUCCESS, data));
     }
 
     public static String toJsonResponse(int code, String message, Object data) {
-        return Contants.gson.toJson(new JsonResponse(code, message, data));
+        return Constant.gson.toJson(new JsonResponse(code, message, data));
     }
 
     public static String toJsonResponse(int code, String message) {
-        return Contants.gson.toJson(new JsonResponse(code, message, null));
+        return Constant.gson.toJson(new JsonResponse(code, message, null));
     }
 
     public int getCode() {

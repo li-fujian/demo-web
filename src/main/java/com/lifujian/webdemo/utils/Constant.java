@@ -4,11 +4,11 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 /**
- * @author lifujian
- * @date 2018/09/10 16:18
+ * @author itlfj
+ * @time 2019/06/22 23:28
  * @description 一些公用常量
  */
-public class Contants {
+public class Constant {
 	
     public static final Gson gson = new GsonBuilder().serializeNulls().disableHtmlEscaping().create();
     
